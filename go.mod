@@ -1,4 +1,4 @@
-module github.com/avd/go-git
+module github.com/avdkp/go-git
 
 // go-git supports the last 3 stable Go versions.
 go 1.18
