@@ -3,10 +3,10 @@ package git
 import (
 	"os"
 
+	"github.com/avdkp/go-git/config"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/object"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/object"
 	. "gopkg.in/check.v1"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"math/rand"
 
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/avdkp/go-git/plumbing"
 	. "gopkg.in/check.v1"
 )
 

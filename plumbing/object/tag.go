@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/sync"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/storer"
+	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/avdkp/go-git/utils/sync"
 )
 
 // Tag represents an annotated tag object. It points to a single git object of

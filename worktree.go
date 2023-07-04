@@ -15,12 +15,12 @@ import (
 	"github.com/avdkp/go-git/plumbing/format/gitignore"
 	"github.com/avdkp/go-git/plumbing/format/index"
 	"github.com/avdkp/go-git/plumbing/object"
+	"github.com/avdkp/go-git/plumbing/storer"
+	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/avdkp/go-git/utils/merkletrie"
+	"github.com/avdkp/go-git/utils/sync"
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
-	"github.com/go-git/go-git/v5/utils/sync"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/hash"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/hash"
 
 	. "gopkg.in/check.v1"
 )

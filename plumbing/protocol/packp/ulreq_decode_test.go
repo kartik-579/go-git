@@ -6,10 +6,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/pktline"
-	"github.com/go-git/go-git/v5/plumbing/hash"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/capability"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/format/pktline"
+	"github.com/avdkp/go-git/plumbing/hash"
+	"github.com/avdkp/go-git/plumbing/protocol/packp/capability"
 
 	. "gopkg.in/check.v1"
 )

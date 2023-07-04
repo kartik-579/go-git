@@ -3,9 +3,9 @@ package packfile
 import (
 	"bytes"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/sync"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/avdkp/go-git/utils/sync"
 )
 
 // See https://github.com/jelmer/dulwich/blob/master/dulwich/pack.py and

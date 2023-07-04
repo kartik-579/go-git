@@ -5,9 +5,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/utils/merkletrie/noder"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/filemode"
+	"github.com/avdkp/go-git/utils/merkletrie/noder"
 
 	"github.com/go-git/go-billy/v5"
 )

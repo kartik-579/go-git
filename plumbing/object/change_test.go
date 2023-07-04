@@ -4,14 +4,14 @@ import (
 	"context"
 	"sort"
 
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/cache"
+	"github.com/avdkp/go-git/plumbing/filemode"
+	"github.com/avdkp/go-git/plumbing/format/diff"
+	"github.com/avdkp/go-git/plumbing/storer"
+	"github.com/avdkp/go-git/storage/filesystem"
+	"github.com/avdkp/go-git/utils/merkletrie"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/format/diff"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
 
 	. "gopkg.in/check.v1"
 )

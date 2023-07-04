@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/hash"
+	"github.com/avdkp/go-git/storage"
+	"github.com/avdkp/go-git/utils/ioutil"
 	"github.com/go-git/go-billy/v5/osfs"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/hash"
-	"github.com/go-git/go-git/v5/storage"
-	"github.com/go-git/go-git/v5/utils/ioutil"
 
 	"github.com/go-git/go-billy/v5"
 )

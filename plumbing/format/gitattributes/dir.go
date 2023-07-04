@@ -3,9 +3,9 @@ package gitattributes
 import (
 	"os"
 
+	"github.com/avdkp/go-git/plumbing/format/config"
+	gioutil "github.com/avdkp/go-git/utils/ioutil"
 	"github.com/go-git/go-billy/v5"
-	"github.com/go-git/go-git/v5/plumbing/format/config"
-	gioutil "github.com/go-git/go-git/v5/utils/ioutil"
 )
 
 const (

@@ -7,12 +7,12 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/capability"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/sideband"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/avdkp/go-git/plumbing"
+	"github.com/avdkp/go-git/plumbing/protocol/packp"
+	"github.com/avdkp/go-git/plumbing/protocol/packp/capability"
+	"github.com/avdkp/go-git/plumbing/protocol/packp/sideband"
+	"github.com/avdkp/go-git/plumbing/transport"
+	"github.com/avdkp/go-git/utils/ioutil"
 )
 
 type rpSession struct {

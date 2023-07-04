@@ -3,8 +3,8 @@ package idxfile
 import (
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing/hash"
-	"github.com/go-git/go-git/v5/utils/binary"
+	"github.com/avdkp/go-git/plumbing/hash"
+	"github.com/avdkp/go-git/utils/binary"
 )
 
 // Encoder writes MemoryIndex structs to an output stream.

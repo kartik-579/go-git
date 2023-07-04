@@ -15,7 +15,7 @@ import (
 	"github.com/avdkp/go-git/plumbing/object"
 	"github.com/avdkp/go-git/plumbing/storer"
 	"github.com/avdkp/go-git/storage/filesystem"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/avdkp/go-git/storage/memory"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
